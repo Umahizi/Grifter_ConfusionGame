@@ -1,0 +1,1 @@
+C:\Users\Iskra\Documents\Visual Studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\AppPackages\ConfusionGame.WindowsPhone_1.0.0.0_ARM_Debug_Test\ConfusionGame.WindowsPhone_1.0.0.0_ARM_Debug.appx

@@ -1,0 +1,1 @@
+C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\ConfusionGame.Windows.csproj;neutral

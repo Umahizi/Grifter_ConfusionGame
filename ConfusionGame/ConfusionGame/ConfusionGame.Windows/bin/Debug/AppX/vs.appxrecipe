@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ISKRAPC</Machine>
+    <WindowsUser>Iskra</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9d47d7b4-5b28-4a3d-9b97-8b825eacc8a9</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3D41D1CA9D67CD0D3D14406872A40774D253B0B56E89DA80775B1FD9BF40ADBC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9d47d7b4-5b28-4a3d-9b97-8b825eacc8a9_1.0.0.0_neutral__v8br4qhywjggj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9d47d7b4-5b28-4a3d-9b97-8b825eacc8a9_v8br4qhywjggj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9d47d7b4-5b28-4a3d-9b97-8b825eacc8a9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Iskra</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-22T11:52:27.829</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\ConfusionGame.Windows.exe">
+      <PackagePath>ConfusionGame.Windows.exe</PackagePath>
+      <Modified>2014-11-22T11:56:36.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\back.jpg">
+      <PackagePath>Assets\back.jpg</PackagePath>
+      <Modified>2014-08-17T15:02:04.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\ghostSheet.PNG">
+      <PackagePath>Assets\ghostSheet.PNG</PackagePath>
+      <Modified>2014-11-20T11:24:27.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T08:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\Turquoise-stone.png">
+      <PackagePath>Assets\Turquoise-stone.png</PackagePath>
+      <Modified>2014-11-21T22:06:28.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-20T15:29:44.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\GamePage.xbf">
+      <PackagePath>GamePage.xbf</PackagePath>
+      <Modified>2014-11-22T11:56:35.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\GamePageContent.xbf">
+      <PackagePath>Views\GamePageContent.xbf</PackagePath>
+      <Modified>2014-11-20T16:14:39.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-20T15:29:44.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\ConfusionGame.Windows.xr.xml">
+      <PackagePath>ConfusionGame.Windows.xr.xml</PackagePath>
+      <Modified>2014-11-22T11:56:35.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-22T11:52:27.136</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
