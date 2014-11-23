@@ -25,6 +25,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\GameScore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseVM.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GameStatus.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GameObjectVM.cs" />
@@ -32,11 +33,21 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PlayerViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\Position.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ScoreBoardVM.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ScoreVM.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WallPiece.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\WallViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\CustomCanvas.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\GamePageContent.xaml.cs">
       <DependentUpon>GamePageContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainPageContent.xaml.cs">
+      <DependentUpon>MainPageContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ScoreBoardContent.xaml.cs">
+      <DependentUpon>ScoreBoardContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\WinGamePageContent.xaml.cs">
+      <DependentUpon>WinGamePageContent.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -44,7 +55,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Styles\PageStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)Views\GamePageContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\MainPageContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\ScoreBoardContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\WinGamePageContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

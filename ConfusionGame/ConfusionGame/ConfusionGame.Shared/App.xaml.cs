@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Parse;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -37,6 +38,7 @@ namespace ConfusionGame
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+            ParseClient.Initialize("mS8bDyxkIxbYdmSL45PhpgeLHThkrVKK6In0NNpw", "6JyNJPH50Crn9Q99TghStqAE28R68kxj5sBAbkEu");
         }
 
         /// <summary>
@@ -47,6 +49,8 @@ namespace ConfusionGame
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+           
+
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
@@ -95,7 +99,7 @@ namespace ConfusionGame
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(GamePage), e.Arguments))
+                if (!rootFrame.Navigate(typeof(MainPage), e.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }

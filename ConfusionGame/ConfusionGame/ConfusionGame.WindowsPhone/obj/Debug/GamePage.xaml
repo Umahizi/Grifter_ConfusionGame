@@ -20,16 +20,10 @@
     </Page.Resources>
 
 
-    <Grid  Name="Grid" >
-        <Grid.Background>
+    <Grid  Name="Grid" Background="{StaticResource PageBackground}">
+        
 
-            <ImageBrush ImageSource="Assets/back.jpg" 
-                    AlignmentX="Left"
-                    Stretch="None"
-                    AlignmentY="Top"></ImageBrush>
-        </Grid.Background>
-
-        <TextBlock Name="GameStatus" HorizontalAlignment="Center" VerticalAlignment="Bottom"  FontSize="30"  Text="{Binding GameState, Mode=TwoWay}" Foreground="#FFFD0000"/>
+        <Button x:ConnectionId='2' Name="GameStatusBtn" HorizontalAlignment="Center" VerticalAlignment="Bottom"  FontSize="30"                           Content="{Binding GameState, Mode=TwoWay}" Foreground="#FFFD0000"/>
         <Canvas    Name="Field" >
 
             <Rectangle Name="Rect">

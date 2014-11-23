@@ -1,16 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Windows.UI.Xaml;
 
 namespace ConfusionGame.ViewModels
 {
     public class GameViewModel:BaseVM
     {
+        private const int TimerIntervalInMilliseconds = 100;
+        private const int MaxScore = 10000;
         private const int ObsticleCount =10;
         private int dificulty;
         private Random randomizer;
         private GameStatus gameStatus;
         private string gameState;
+        private int score;
         
 
         public GameViewModel() : this(ObsticleCount)
@@ -23,9 +27,14 @@ namespace ConfusionGame.ViewModels
             this.Player = new PlayerViewModel();
             this.Dificulty = 0;
             this.WallCount = count;
+            this.Score = MaxScore;
             this.Walls = new List<WallPiece>();
             this.randomizer= new Random();
             this.GameStatusCode = GameStatus.On;
+            this.GameTimer = new DispatcherTimer();
+            this.GameTimer.Tick += this.GameTimerTick;
+            this.GameTimer.Interval = TimeSpan.FromMilliseconds(TimerIntervalInMilliseconds);
+            this.GameTimer.Start();
         }
 
         public GameViewModel(PlayerViewModel player)
@@ -33,7 +42,8 @@ namespace ConfusionGame.ViewModels
             this.Player = player;
         }
 
-        
+        private DispatcherTimer GameTimer { get; set; }
+
         public int WallCount { get; set; }
 
         public int Dificulty  
@@ -49,7 +59,20 @@ namespace ConfusionGame.ViewModels
             }
         }
 
-        public int Score { get; set; }
+        public int Score
+        {
+            get
+            {
+                return this.score;
+            }
+            set
+            {
+                this.score = value;
+                this.OnPropertyChanged("Score");
+            }
+        }
+
+       
 
         public GameStatus GameStatusCode
         {
@@ -61,17 +84,17 @@ namespace ConfusionGame.ViewModels
             if(value==GameStatus.On)
             {
                 this.gameStatus = GameStatus.On;
-                this.GameState = "Game is On";
+                this.GameState = "Pause";
             }
             else if (value == GameStatus.Paused)
             {
-                this.gameStatus = GameStatus.On;
-                this.GameState = "Game is Poused";
+                this.gameStatus = GameStatus.Paused;
+                this.GameState = "Unpause";
             }
             else 
             {
-                this.gameStatus = GameStatus.On;
-                this.GameState = "Game Won";
+                this.gameStatus = GameStatus.Won;
+                this.GameState = "Send Score";
             }
             }
         }
@@ -107,7 +130,7 @@ namespace ConfusionGame.ViewModels
             {
                 switch (this.Dificulty)
                 {
-                    case 0: if(CheckIfMoveIsValid(x,y)){this.Player.Move(x, y);}
+                    case 0: if(CheckIfMoveIsValid(x,y)){this.Player.Move(x, y); }
                         break;
                     case 1:  if(CheckIfMoveIsValid(y,x)){this.Player.Move(y, x);}
                         break;
@@ -173,27 +196,38 @@ namespace ConfusionGame.ViewModels
         public void WinGame()
         {
 
-            if (this.Dificulty < 7)
+            if (this.Dificulty <3)
             {
                 this.Dificulty++;
                 StartGame();
             }
-            else
+            if (this.Dificulty == 3)
             {
                 this.GameStatusCode = GameStatus.Won;
+                this.GameTimer.Stop();
             }
-            
         }
 
         public void PauseGame()
         {
-            this.GameStatusCode = GameStatus.Paused;
+            if (this.GameStatusCode == GameStatus.On)
+            {
+                this.GameStatusCode = GameStatus.Paused;
+                this.GameTimer.Stop();
+            }
+            else
+            {
+                this.GameStatusCode = GameStatus.On;
+                this.GameTimer.Start();
+            }
         }
 
         public void StartGame()
         {
             this.Player.Top = this.GameFieldHeight / 2 - this.Player.Height / 2;
             this.Player.Left = 0;
+            
+            //this.GameTimer.Start();
             foreach(var wall in this.Walls)
             {
                 int maxX = (int)Math.Round(this.GameFieldWidth - wall.Width);
@@ -225,6 +259,11 @@ namespace ConfusionGame.ViewModels
                 this.Walls.Add(wall);
             }
         
+        }
+
+        private void GameTimerTick(object sender, object e)
+        {
+            this.Score--;
         }
 
     }

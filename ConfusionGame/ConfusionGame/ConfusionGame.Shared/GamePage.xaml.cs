@@ -1,4 +1,5 @@
-﻿using ConfusionGame.ViewModels;
+﻿using ConfusionGame.Common;
+using ConfusionGame.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -45,10 +46,14 @@ namespace ConfusionGame
         private Rectangle controll;
 
         private ImageBrush brush;
+        private NavigationHelper navigationHelper;
         
 
         public GamePage()
         {
+            this.navigationHelper = new NavigationHelper(this);
+            this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
+            this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
    
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Required;
@@ -60,12 +65,21 @@ namespace ConfusionGame
             
         }
 
-        
+        private void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
+        {
+        }
+
+        private void NavigationHelper_SaveState(object sender, SaveStateEventArgs e)
+        {
+        }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             
             CompositionTarget.Rendering += this.OnUpdate;
+            
+            this.game.Dificulty = 0;
+            this.game.StartGame();
 
             // TODO: Prepare page for display here.
 
@@ -116,11 +130,20 @@ namespace ConfusionGame
         {
             this.game.GameFieldWidth = this.ActualWidth;
             this.game.GameFieldHeight = this.ActualHeight;
-            this.game.initObjects();
+   
+            if (this.game.GameStatusCode != GameStatus.Won)
+            {
+                
+                this.game.initObjects();
+                GenerateObsticles();
+                BuildGameUIElement(this.game.Player);
+
+            }
+            else
+            {
+                this.game.GameStatusCode = GameStatus.On;
+            }
             this.game.StartGame();
-            GenerateObsticles();
-            BuildGameUIElement(this.game.Player);
- 
             //DispatcherTimer timer = new DispatcherTimer();
             //timer.Tick += (snd, args) =>
             //{
@@ -207,6 +230,21 @@ namespace ConfusionGame
 
             return rect;
             
+        }
+
+        private void GameStatus_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.game.GameStatusCode == GameStatus.Won)
+            {
+                CompositionTarget.Rendering -= this.OnUpdate;
+                //PhoneApplicationService.Current.State["MyObject"] = this.game.Score;
+                
+                this.Frame.Navigate(typeof(WinGamePage),this.game.Score);
+            }
+            else 
+            {
+                this.game.PauseGame();
+            }
         }
 
 

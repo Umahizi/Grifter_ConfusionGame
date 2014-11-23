@@ -19,38 +19,53 @@
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\ConfusionGame.WindowsPhone.exe">
       <PackagePath>ConfusionGame.WindowsPhone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\back.jpg">
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\Frameworks\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\Frameworks\Parse.Phone.dll">
+      <PackagePath>Parse.Phone.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\back.jpg">
+      <PackagePath>Views\Assets\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Shared\Assets\back.jpg">
       <PackagePath>Assets\back.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\ghostSheet.PNG">
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\ghostLogo.png">
+      <PackagePath>Views\Assets\ghostLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\ghostSheet.PNG">
+      <PackagePath>Views\Assets\ghostSheet.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\Logo.scale-240.png">
+      <PackagePath>Views\Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Views\Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Views\Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Views\Assets\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Views\Assets\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\Turquoise-stone.png">
+      <PackagePath>Views\Assets\Turquoise-stone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\twittermaze.png">
+      <PackagePath>Views\Assets\twittermaze.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Views\Assets\WideLogo.scale-240.png">
+      <PackagePath>Views\Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Shared\Assets\ghostSheet.PNG">
       <PackagePath>Assets\ghostSheet.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\Logo.scale-240.png">
-      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\SmallLogo.scale-240.png">
-      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\SplashScreen.scale-240.png">
-      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
-      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\StoreLogo.scale-240.png">
-      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\Turquoise-stone.png">
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Shared\Assets\Turquoise-stone.png">
       <PackagePath>Assets\Turquoise-stone.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\Assets\WideLogo.scale-240.png">
-      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -58,11 +73,32 @@
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\GamePage.xbf">
       <PackagePath>GamePage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\Styles\PageStyles.xbf">
+      <PackagePath>Styles\PageStyles.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\Views\GamePageContent.xbf">
       <PackagePath>Views\GamePageContent.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\Views\MainPageContent.xbf">
+      <PackagePath>Views\MainPageContent.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\Views\ScoreBoardContent.xbf">
+      <PackagePath>Views\ScoreBoardContent.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\Views\WinGamePageContent.xbf">
+      <PackagePath>Views\WinGamePageContent.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\ScoreBoardPage.xbf">
+      <PackagePath>ScoreBoardPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\Views\Logo.xbf">
+      <PackagePath>Views\Logo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\WinGamePage.xbf">
+      <PackagePath>WinGamePage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.WindowsPhone\bin\Debug\ConfusionGame.WindowsPhone.xr.xml">
       <PackagePath>ConfusionGame.WindowsPhone.xr.xml</PackagePath>

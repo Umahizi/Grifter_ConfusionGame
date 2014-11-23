@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="ConfusionGame.Views.MainPageContent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ConfusionGame.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <StackPanel>
+
+
+        <Button Content="Hint ?" Click="Button_Click" HorizontalAlignment="Center" FontSize="30" Foreground="DarkCyan" BorderBrush="DarkCyan" />
+
+        <TextBlock Text="Honestly click the Hint" Foreground="Crimson" HorizontalAlignment="Center" FontSize="40"/>
+
+    </StackPanel>
+</UserControl>

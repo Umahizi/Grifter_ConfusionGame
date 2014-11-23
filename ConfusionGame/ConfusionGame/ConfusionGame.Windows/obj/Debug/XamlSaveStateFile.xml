@@ -1,5 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\iskra\documents\visual studio 2013\projects\confusiongame\confusiongame\confusiongame.windows\obj\debug\intermediatexaml\confusiongame.windows.exe" HashGuid="57059bee-323a-532b-3803-cd42af43cf97" />
+    <LocalAssembly PathName="c:\users\iskra\documents\visual studio 2013\projects\confusiongame\confusiongame\confusiongame.windows\obj\debug\intermediatexaml\confusiongame.windows.exe" HashGuid="1b75ba0b-b04b-8085-8f9b-fd06e91d8274" />
+    <ReferenceAssembly PathName="c:\users\iskra\documents\visual studio 2013\projects\confusiongame\confusiongame\frameworks\parse.dll" HashGuid="4aa23e2f-e4a0-423c-41b6-d3a8bf370a51" />
+    <ReferenceAssembly PathName="c:\users\iskra\documents\visual studio 2013\projects\confusiongame\confusiongame\frameworks\parse.winrt.dll" HashGuid="686a4480-5b84-291b-04f2-3ed7db81ad6f" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -124,41 +124,71 @@ namespace ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[16];
-            _typeNameTable[0] = "ConfusionGame.MainPage";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "ConfusionGame.Common.NavigationHelper";
-            _typeNameTable[4] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[5] = "ConfusionGame.Common.ObservableDictionary";
-            _typeNameTable[6] = "Object";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "ConfusionGame.Converters.ImageToBrushConverter";
-            _typeNameTable[9] = "ConfusionGame.ViewModels.GameObjectVM";
-            _typeNameTable[10] = "ConfusionGame.ViewModels.BaseVM";
-            _typeNameTable[11] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
-            _typeNameTable[12] = "Double";
-            _typeNameTable[13] = "Boolean";
-            _typeNameTable[14] = "ConfusionGame.GamePage";
-            _typeNameTable[15] = "ConfusionGame.Views.GamePageContent";
+            _typeNameTable = new string[31];
+            _typeNameTable[0] = "ConfusionGame.Views.MainPageContent";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[2] = "ConfusionGame.Views.Logo";
+            _typeNameTable[3] = "ConfusionGame.MainPage";
+            _typeNameTable[4] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[5] = "ConfusionGame.Common.NavigationHelper";
+            _typeNameTable[6] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[7] = "ConfusionGame.Common.ObservableDictionary";
+            _typeNameTable[8] = "Object";
+            _typeNameTable[9] = "String";
+            _typeNameTable[10] = "ConfusionGame.Views.ScoreBoardContent";
+            _typeNameTable[11] = "ConfusionGame.ScoreBoardPage";
+            _typeNameTable[12] = "ConfusionGame.Views.WinGamePageContent";
+            _typeNameTable[13] = "ConfusionGame.WinGamePage";
+            _typeNameTable[14] = "ConfusionGame.ViewModels.GameViewModel";
+            _typeNameTable[15] = "ConfusionGame.ViewModels.BaseVM";
+            _typeNameTable[16] = "Int32";
+            _typeNameTable[17] = "ConfusionGame.ViewModels.GameStatus";
+            _typeNameTable[18] = "System.Enum";
+            _typeNameTable[19] = "System.ValueType";
+            _typeNameTable[20] = "Double";
+            _typeNameTable[21] = "ConfusionGame.ViewModels.PlayerViewModel";
+            _typeNameTable[22] = "ConfusionGame.ViewModels.GameObjectVM";
+            _typeNameTable[23] = "System.DateTime";
+            _typeNameTable[24] = "System.Collections.Generic.ICollection`1<ConfusionGame.ViewModels.WallPiece>";
+            _typeNameTable[25] = "ConfusionGame.ViewModels.WallPiece";
+            _typeNameTable[26] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
+            _typeNameTable[27] = "Boolean";
+            _typeNameTable[28] = "ConfusionGame.Converters.StatusToStringConverter";
+            _typeNameTable[29] = "ConfusionGame.GamePage";
+            _typeNameTable[30] = "ConfusionGame.Views.GamePageContent";
 
-            _typeTable = new global::System.Type[16];
-            _typeTable[0] = typeof(global::ConfusionGame.MainPage);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::ConfusionGame.Common.NavigationHelper);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[5] = typeof(global::ConfusionGame.Common.ObservableDictionary);
-            _typeTable[6] = typeof(global::System.Object);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::ConfusionGame.Converters.ImageToBrushConverter);
-            _typeTable[9] = typeof(global::ConfusionGame.ViewModels.GameObjectVM);
-            _typeTable[10] = typeof(global::ConfusionGame.ViewModels.BaseVM);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
-            _typeTable[12] = typeof(global::System.Double);
-            _typeTable[13] = typeof(global::System.Boolean);
-            _typeTable[14] = typeof(global::ConfusionGame.GamePage);
-            _typeTable[15] = typeof(global::ConfusionGame.Views.GamePageContent);
+            _typeTable = new global::System.Type[31];
+            _typeTable[0] = typeof(global::ConfusionGame.Views.MainPageContent);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[2] = typeof(global::ConfusionGame.Views.Logo);
+            _typeTable[3] = typeof(global::ConfusionGame.MainPage);
+            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[5] = typeof(global::ConfusionGame.Common.NavigationHelper);
+            _typeTable[6] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[7] = typeof(global::ConfusionGame.Common.ObservableDictionary);
+            _typeTable[8] = typeof(global::System.Object);
+            _typeTable[9] = typeof(global::System.String);
+            _typeTable[10] = typeof(global::ConfusionGame.Views.ScoreBoardContent);
+            _typeTable[11] = typeof(global::ConfusionGame.ScoreBoardPage);
+            _typeTable[12] = typeof(global::ConfusionGame.Views.WinGamePageContent);
+            _typeTable[13] = typeof(global::ConfusionGame.WinGamePage);
+            _typeTable[14] = typeof(global::ConfusionGame.ViewModels.GameViewModel);
+            _typeTable[15] = typeof(global::ConfusionGame.ViewModels.BaseVM);
+            _typeTable[16] = typeof(global::System.Int32);
+            _typeTable[17] = typeof(global::ConfusionGame.ViewModels.GameStatus);
+            _typeTable[18] = typeof(global::System.Enum);
+            _typeTable[19] = typeof(global::System.ValueType);
+            _typeTable[20] = typeof(global::System.Double);
+            _typeTable[21] = typeof(global::ConfusionGame.ViewModels.PlayerViewModel);
+            _typeTable[22] = typeof(global::ConfusionGame.ViewModels.GameObjectVM);
+            _typeTable[23] = typeof(global::System.DateTime);
+            _typeTable[24] = typeof(global::System.Collections.Generic.ICollection<global::ConfusionGame.ViewModels.WallPiece>);
+            _typeTable[25] = typeof(global::ConfusionGame.ViewModels.WallPiece);
+            _typeTable[26] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
+            _typeTable[27] = typeof(global::System.Boolean);
+            _typeTable[28] = typeof(global::ConfusionGame.Converters.StatusToStringConverter);
+            _typeTable[29] = typeof(global::ConfusionGame.GamePage);
+            _typeTable[30] = typeof(global::ConfusionGame.Views.GamePageContent);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -193,19 +223,33 @@ namespace ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::ConfusionGame.MainPage(); }
-        private object Activate_5_ObservableDictionary() { return new global::ConfusionGame.Common.ObservableDictionary(); }
-        private object Activate_8_ImageToBrushConverter() { return new global::ConfusionGame.Converters.ImageToBrushConverter(); }
-        private object Activate_9_GameObjectVM() { return new global::ConfusionGame.ViewModels.GameObjectVM(); }
-        private object Activate_10_BaseVM() { return new global::ConfusionGame.ViewModels.BaseVM(); }
-        private object Activate_14_GamePage() { return new global::ConfusionGame.GamePage(); }
-        private object Activate_15_GamePageContent() { return new global::ConfusionGame.Views.GamePageContent(); }
-        private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
+        private object Activate_0_MainPageContent() { return new global::ConfusionGame.Views.MainPageContent(); }
+        private object Activate_2_Logo() { return new global::ConfusionGame.Views.Logo(); }
+        private object Activate_3_MainPage() { return new global::ConfusionGame.MainPage(); }
+        private object Activate_7_ObservableDictionary() { return new global::ConfusionGame.Common.ObservableDictionary(); }
+        private object Activate_10_ScoreBoardContent() { return new global::ConfusionGame.Views.ScoreBoardContent(); }
+        private object Activate_11_ScoreBoardPage() { return new global::ConfusionGame.ScoreBoardPage(); }
+        private object Activate_12_WinGamePageContent() { return new global::ConfusionGame.Views.WinGamePageContent(); }
+        private object Activate_13_WinGamePage() { return new global::ConfusionGame.WinGamePage(); }
+        private object Activate_14_GameViewModel() { return new global::ConfusionGame.ViewModels.GameViewModel(); }
+        private object Activate_15_BaseVM() { return new global::ConfusionGame.ViewModels.BaseVM(); }
+        private object Activate_21_PlayerViewModel() { return new global::ConfusionGame.ViewModels.PlayerViewModel(); }
+        private object Activate_25_WallPiece() { return new global::ConfusionGame.ViewModels.WallPiece(); }
+        private object Activate_28_StatusToStringConverter() { return new global::ConfusionGame.Converters.StatusToStringConverter(); }
+        private object Activate_29_GamePage() { return new global::ConfusionGame.GamePage(); }
+        private object Activate_30_GamePageContent() { return new global::ConfusionGame.Views.GamePageContent(); }
+        private void MapAdd_7_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
+        }
+        private void VectorAdd_24_ICollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::ConfusionGame.ViewModels.WallPiece>)instance;
+            var newItem = (global::ConfusionGame.ViewModels.WallPiece)item;
+            collection.Add(newItem);
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -218,61 +262,160 @@ namespace ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  ConfusionGame.MainPage
+            case 0:   //  ConfusionGame.Views.MainPageContent
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_0_MainPageContent;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 1:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 2:   //  ConfusionGame.Views.Logo
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_2_Logo;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 3:   //  ConfusionGame.MainPage
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_3_MainPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
+            case 4:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 3:   //  ConfusionGame.Common.NavigationHelper
+            case 5:   //  ConfusionGame.Common.NavigationHelper
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Windows.UI.Xaml.DependencyObject
+            case 6:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  ConfusionGame.Common.ObservableDictionary
+            case 7:   //  ConfusionGame.Common.ObservableDictionary
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
+                userType.DictionaryAdd = MapAdd_7_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Object
+            case 8:   //  Object
                 xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  String
+            case 9:   //  String
                 xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  ConfusionGame.Converters.ImageToBrushConverter
-                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_8_ImageToBrushConverter;
+            case 10:   //  ConfusionGame.Views.ScoreBoardContent
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_10_ScoreBoardContent;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  ConfusionGame.ViewModels.GameObjectVM
+            case 11:   //  ConfusionGame.ScoreBoardPage
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_ScoreBoardPage;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  ConfusionGame.Views.WinGamePageContent
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_12_WinGamePageContent;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  ConfusionGame.WinGamePage
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_WinGamePage;
+                userType.AddMemberName("NavigationHelper");
+                userType.AddMemberName("DefaultViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  ConfusionGame.ViewModels.GameViewModel
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ConfusionGame.ViewModels.BaseVM"));
-                userType.Activator = Activate_9_GameObjectVM;
+                userType.Activator = Activate_14_GameViewModel;
+                userType.AddMemberName("WallCount");
+                userType.AddMemberName("Dificulty");
+                userType.AddMemberName("Score");
+                userType.AddMemberName("GameStatusCode");
+                userType.AddMemberName("GameFieldHeight");
+                userType.AddMemberName("GameFieldWidth");
+                userType.AddMemberName("Player");
+                userType.AddMemberName("StartTime");
+                userType.AddMemberName("EndTime");
+                userType.AddMemberName("Walls");
+                userType.AddMemberName("GameState");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  ConfusionGame.ViewModels.BaseVM
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_15_BaseVM;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 16:   //  Int32
+                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  ConfusionGame.ViewModels.GameStatus
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Paused", global::ConfusionGame.ViewModels.GameStatus.Paused);
+                userType.AddEnumValue("On", global::ConfusionGame.ViewModels.GameStatus.On);
+                userType.AddEnumValue("Won", global::ConfusionGame.ViewModels.GameStatus.Won);
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 18:   //  System.Enum
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 19:   //  System.ValueType
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 20:   //  Double
+                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 21:   //  ConfusionGame.ViewModels.PlayerViewModel
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 22:   //  ConfusionGame.ViewModels.GameObjectVM
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ConfusionGame.ViewModels.BaseVM"));
                 userType.AddMemberName("Source");
+                userType.AddMemberName("Width");
+                userType.AddMemberName("Height");
                 userType.AddMemberName("Left");
                 userType.AddMemberName("Top");
                 userType.AddMemberName("MaxX");
@@ -282,35 +425,51 @@ namespace ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  ConfusionGame.ViewModels.BaseVM
+            case 23:   //  System.DateTime
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 24:   //  System.Collections.Generic.ICollection`1<ConfusionGame.ViewModels.WallPiece>
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.CollectionAdd = VectorAdd_24_ICollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 25:   //  ConfusionGame.ViewModels.WallPiece
+                userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM"));
+                userType.Activator = Activate_25_WallPiece;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
+                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 27:   //  Boolean
+                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 28:   //  ConfusionGame.Converters.StatusToStringConverter
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_BaseVM;
+                userType.Activator = Activate_28_StatusToStringConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
-                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 12:   //  Double
-                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 13:   //  Boolean
-                xamlType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 14:   //  ConfusionGame.GamePage
+            case 29:   //  ConfusionGame.GamePage
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_GamePage;
+                userType.Activator = Activate_29_GamePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  ConfusionGame.Views.GamePageContent
+            case 30:   //  ConfusionGame.Views.GamePageContent
                 userType = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_15_GamePageContent;
+                userType.Activator = Activate_30_GamePageContent;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -329,65 +488,210 @@ namespace ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo
             var that = (global::ConfusionGame.MainPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_2_GameObjectVM_Source(object instance)
+        private object get_2_ScoreBoardPage_NavigationHelper(object instance)
+        {
+            var that = (global::ConfusionGame.ScoreBoardPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_3_ScoreBoardPage_DefaultViewModel(object instance)
+        {
+            var that = (global::ConfusionGame.ScoreBoardPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_4_WinGamePage_NavigationHelper(object instance)
+        {
+            var that = (global::ConfusionGame.WinGamePage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_5_WinGamePage_DefaultViewModel(object instance)
+        {
+            var that = (global::ConfusionGame.WinGamePage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_6_GameViewModel_WallCount(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.WallCount;
+        }
+        private void set_6_GameViewModel_WallCount(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.WallCount = (global::System.Int32)Value;
+        }
+        private object get_7_GameViewModel_Dificulty(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.Dificulty;
+        }
+        private void set_7_GameViewModel_Dificulty(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.Dificulty = (global::System.Int32)Value;
+        }
+        private object get_8_GameViewModel_Score(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.Score;
+        }
+        private void set_8_GameViewModel_Score(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.Score = (global::System.Int32)Value;
+        }
+        private object get_9_GameViewModel_GameStatusCode(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.GameStatusCode;
+        }
+        private void set_9_GameViewModel_GameStatusCode(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.GameStatusCode = (global::ConfusionGame.ViewModels.GameStatus)Value;
+        }
+        private object get_10_GameViewModel_GameFieldHeight(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.GameFieldHeight;
+        }
+        private void set_10_GameViewModel_GameFieldHeight(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.GameFieldHeight = (global::System.Double)Value;
+        }
+        private object get_11_GameViewModel_GameFieldWidth(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.GameFieldWidth;
+        }
+        private void set_11_GameViewModel_GameFieldWidth(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.GameFieldWidth = (global::System.Double)Value;
+        }
+        private object get_12_GameViewModel_Player(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.Player;
+        }
+        private object get_13_GameViewModel_StartTime(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.StartTime;
+        }
+        private void set_13_GameViewModel_StartTime(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.StartTime = (global::System.DateTime)Value;
+        }
+        private object get_14_GameViewModel_EndTime(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.EndTime;
+        }
+        private void set_14_GameViewModel_EndTime(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.EndTime = (global::System.DateTime)Value;
+        }
+        private object get_15_GameViewModel_Walls(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.Walls;
+        }
+        private void set_15_GameViewModel_Walls(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.Walls = (global::System.Collections.Generic.ICollection<global::ConfusionGame.ViewModels.WallPiece>)Value;
+        }
+        private object get_16_GameObjectVM_Source(object instance)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             return that.Source;
         }
-        private void set_2_GameObjectVM_Source(object instance, object Value)
+        private void set_16_GameObjectVM_Source(object instance, object Value)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             that.Source = (global::Windows.UI.Xaml.Media.Imaging.BitmapImage)Value;
         }
-        private object get_3_GameObjectVM_Left(object instance)
+        private object get_17_GameObjectVM_Width(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
+            return that.Width;
+        }
+        private void set_17_GameObjectVM_Width(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
+            that.Width = (global::System.Double)Value;
+        }
+        private object get_18_GameObjectVM_Height(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
+            return that.Height;
+        }
+        private void set_18_GameObjectVM_Height(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
+            that.Height = (global::System.Double)Value;
+        }
+        private object get_19_GameObjectVM_Left(object instance)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             return that.Left;
         }
-        private void set_3_GameObjectVM_Left(object instance, object Value)
+        private void set_19_GameObjectVM_Left(object instance, object Value)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             that.Left = (global::System.Double)Value;
         }
-        private object get_4_GameObjectVM_Top(object instance)
+        private object get_20_GameObjectVM_Top(object instance)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             return that.Top;
         }
-        private void set_4_GameObjectVM_Top(object instance, object Value)
+        private void set_20_GameObjectVM_Top(object instance, object Value)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             that.Top = (global::System.Double)Value;
         }
-        private object get_5_GameObjectVM_MaxX(object instance)
+        private object get_21_GameObjectVM_MaxX(object instance)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             return that.MaxX;
         }
-        private void set_5_GameObjectVM_MaxX(object instance, object Value)
+        private void set_21_GameObjectVM_MaxX(object instance, object Value)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             that.MaxX = (global::System.Double)Value;
         }
-        private object get_6_GameObjectVM_MaxY(object instance)
+        private object get_22_GameObjectVM_MaxY(object instance)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             return that.MaxY;
         }
-        private void set_6_GameObjectVM_MaxY(object instance, object Value)
+        private void set_22_GameObjectVM_MaxY(object instance, object Value)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             that.MaxY = (global::System.Double)Value;
         }
-        private object get_7_GameObjectVM_HasColided(object instance)
+        private object get_23_GameObjectVM_HasColided(object instance)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             return that.HasColided;
         }
-        private void set_7_GameObjectVM_HasColided(object instance, object Value)
+        private void set_23_GameObjectVM_HasColided(object instance, object Value)
         {
             var that = (global::ConfusionGame.ViewModels.GameObjectVM)instance;
             that.HasColided = (global::System.Boolean)Value;
+        }
+        private object get_24_GameViewModel_GameState(object instance)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            return that.GameState;
+        }
+        private void set_24_GameViewModel_GameState(object instance, object Value)
+        {
+            var that = (global::ConfusionGame.ViewModels.GameViewModel)instance;
+            that.GameState = (global::System.String)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -409,41 +713,143 @@ namespace ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo
                 xamlMember.Getter = get_1_MainPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "ConfusionGame.ScoreBoardPage.NavigationHelper":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ScoreBoardPage");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ConfusionGame.Common.NavigationHelper");
+                xamlMember.Getter = get_2_ScoreBoardPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "ConfusionGame.ScoreBoardPage.DefaultViewModel":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ScoreBoardPage");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ConfusionGame.Common.ObservableDictionary");
+                xamlMember.Getter = get_3_ScoreBoardPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "ConfusionGame.WinGamePage.NavigationHelper":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.WinGamePage");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ConfusionGame.Common.NavigationHelper");
+                xamlMember.Getter = get_4_WinGamePage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "ConfusionGame.WinGamePage.DefaultViewModel":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.WinGamePage");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ConfusionGame.Common.ObservableDictionary");
+                xamlMember.Getter = get_5_WinGamePage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.WallCount":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "WallCount", "Int32");
+                xamlMember.Getter = get_6_GameViewModel_WallCount;
+                xamlMember.Setter = set_6_GameViewModel_WallCount;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.Dificulty":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Dificulty", "Int32");
+                xamlMember.Getter = get_7_GameViewModel_Dificulty;
+                xamlMember.Setter = set_7_GameViewModel_Dificulty;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.Score":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Score", "Int32");
+                xamlMember.Getter = get_8_GameViewModel_Score;
+                xamlMember.Setter = set_8_GameViewModel_Score;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.GameStatusCode":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "GameStatusCode", "ConfusionGame.ViewModels.GameStatus");
+                xamlMember.Getter = get_9_GameViewModel_GameStatusCode;
+                xamlMember.Setter = set_9_GameViewModel_GameStatusCode;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.GameFieldHeight":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "GameFieldHeight", "Double");
+                xamlMember.Getter = get_10_GameViewModel_GameFieldHeight;
+                xamlMember.Setter = set_10_GameViewModel_GameFieldHeight;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.GameFieldWidth":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "GameFieldWidth", "Double");
+                xamlMember.Getter = get_11_GameViewModel_GameFieldWidth;
+                xamlMember.Setter = set_11_GameViewModel_GameFieldWidth;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.Player":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Player", "ConfusionGame.ViewModels.PlayerViewModel");
+                xamlMember.Getter = get_12_GameViewModel_Player;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.StartTime":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "StartTime", "System.DateTime");
+                xamlMember.Getter = get_13_GameViewModel_StartTime;
+                xamlMember.Setter = set_13_GameViewModel_StartTime;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.EndTime":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "EndTime", "System.DateTime");
+                xamlMember.Getter = get_14_GameViewModel_EndTime;
+                xamlMember.Setter = set_14_GameViewModel_EndTime;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.Walls":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Walls", "System.Collections.Generic.ICollection`1<ConfusionGame.ViewModels.WallPiece>");
+                xamlMember.Getter = get_15_GameViewModel_Walls;
+                xamlMember.Setter = set_15_GameViewModel_Walls;
+                break;
             case "ConfusionGame.ViewModels.GameObjectVM.Source":
                 userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
                 xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Source", "Windows.UI.Xaml.Media.Imaging.BitmapImage");
-                xamlMember.Getter = get_2_GameObjectVM_Source;
-                xamlMember.Setter = set_2_GameObjectVM_Source;
+                xamlMember.Getter = get_16_GameObjectVM_Source;
+                xamlMember.Setter = set_16_GameObjectVM_Source;
+                break;
+            case "ConfusionGame.ViewModels.GameObjectVM.Width":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Width", "Double");
+                xamlMember.Getter = get_17_GameObjectVM_Width;
+                xamlMember.Setter = set_17_GameObjectVM_Width;
+                break;
+            case "ConfusionGame.ViewModels.GameObjectVM.Height":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Height", "Double");
+                xamlMember.Getter = get_18_GameObjectVM_Height;
+                xamlMember.Setter = set_18_GameObjectVM_Height;
                 break;
             case "ConfusionGame.ViewModels.GameObjectVM.Left":
                 userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
                 xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Left", "Double");
-                xamlMember.Getter = get_3_GameObjectVM_Left;
-                xamlMember.Setter = set_3_GameObjectVM_Left;
+                xamlMember.Getter = get_19_GameObjectVM_Left;
+                xamlMember.Setter = set_19_GameObjectVM_Left;
                 break;
             case "ConfusionGame.ViewModels.GameObjectVM.Top":
                 userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
                 xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "Top", "Double");
-                xamlMember.Getter = get_4_GameObjectVM_Top;
-                xamlMember.Setter = set_4_GameObjectVM_Top;
+                xamlMember.Getter = get_20_GameObjectVM_Top;
+                xamlMember.Setter = set_20_GameObjectVM_Top;
                 break;
             case "ConfusionGame.ViewModels.GameObjectVM.MaxX":
                 userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
                 xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "MaxX", "Double");
-                xamlMember.Getter = get_5_GameObjectVM_MaxX;
-                xamlMember.Setter = set_5_GameObjectVM_MaxX;
+                xamlMember.Getter = get_21_GameObjectVM_MaxX;
+                xamlMember.Setter = set_21_GameObjectVM_MaxX;
                 break;
             case "ConfusionGame.ViewModels.GameObjectVM.MaxY":
                 userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
                 xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "MaxY", "Double");
-                xamlMember.Getter = get_6_GameObjectVM_MaxY;
-                xamlMember.Setter = set_6_GameObjectVM_MaxY;
+                xamlMember.Getter = get_22_GameObjectVM_MaxY;
+                xamlMember.Setter = set_22_GameObjectVM_MaxY;
                 break;
             case "ConfusionGame.ViewModels.GameObjectVM.HasColided":
                 userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameObjectVM");
                 xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "HasColided", "Boolean");
-                xamlMember.Getter = get_7_GameObjectVM_HasColided;
-                xamlMember.Setter = set_7_GameObjectVM_HasColided;
+                xamlMember.Getter = get_23_GameObjectVM_HasColided;
+                xamlMember.Setter = set_23_GameObjectVM_HasColided;
+                break;
+            case "ConfusionGame.ViewModels.GameViewModel.GameState":
+                userType = (global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ConfusionGame.ViewModels.GameViewModel");
+                xamlMember = new global::ConfusionGame.ConfusionGame_WindowsPhone_XamlTypeInfo.XamlMember(this, "GameState", "String");
+                xamlMember.Getter = get_24_GameViewModel_GameState;
+                xamlMember.Setter = set_24_GameViewModel_GameState;
                 break;
             }
             return xamlMember;

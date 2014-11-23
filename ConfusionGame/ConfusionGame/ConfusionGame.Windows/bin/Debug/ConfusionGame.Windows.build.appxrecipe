@@ -19,8 +19,17 @@
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\ConfusionGame.Windows.exe">
       <PackagePath>ConfusionGame.Windows.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\Frameworks\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\Frameworks\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\back.jpg">
       <PackagePath>Assets\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\ghostLogo.png">
+      <PackagePath>Assets\ghostLogo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\ghostSheet.PNG">
       <PackagePath>Assets\ghostSheet.PNG</PackagePath>
@@ -44,17 +53,38 @@
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\Turquoise-stone.png">
       <PackagePath>Assets\Turquoise-stone.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\twittermaze.png">
+      <PackagePath>Assets\twittermaze.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\GamePage.xbf">
       <PackagePath>GamePage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Styles\PageStyles.xbf">
+      <PackagePath>Styles\PageStyles.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\GamePageContent.xbf">
       <PackagePath>Views\GamePageContent.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\MainPageContent.xbf">
+      <PackagePath>Views\MainPageContent.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\ScoreBoardContent.xbf">
+      <PackagePath>Views\ScoreBoardContent.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\WinGamePageContent.xbf">
+      <PackagePath>Views\WinGamePageContent.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\Logo.xbf">
+      <PackagePath>Views\Logo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\WinGamePage.xbf">
+      <PackagePath>WinGamePage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\ConfusionGame.Windows.xr.xml">
       <PackagePath>ConfusionGame.Windows.xr.xml</PackagePath>
