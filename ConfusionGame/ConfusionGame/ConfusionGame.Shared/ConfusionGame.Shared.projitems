@@ -21,10 +21,12 @@
     <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommandWithParameters.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Converters\ImageToBrushConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Converters\StatusToStringConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GamePage.xaml.cs">
       <DependentUpon>GamePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseVM.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GameStatus.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GameObjectVM.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GameViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\PlayerViewModel.cs" />

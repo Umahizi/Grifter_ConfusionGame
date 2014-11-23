@@ -9,8 +9,8 @@ namespace ConfusionGame.ViewModels
     {
         private const double DefaultX = 300;
         private const double DefaultY = 0;
-        private const double defaultWidth = 50;
-        private const double defaultHeight = 50;
+        private const double defaultWidth = 175;
+        private const double defaultHeight = 175;
 
         private const string source = "ms-appx:///Assets/Turquoise-stone.png";
         public WallPiece()

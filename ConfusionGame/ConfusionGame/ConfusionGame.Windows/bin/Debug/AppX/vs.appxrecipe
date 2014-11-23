@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-11-22T11:52:27.829</Modified>
+      <Modified>2014-11-22T16:40:05.583</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\ConfusionGame.Windows.exe">
       <PackagePath>ConfusionGame.Windows.exe</PackagePath>
-      <Modified>2014-11-22T11:56:36.127</Modified>
+      <Modified>2014-11-22T19:19:22.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\back.jpg">
       <PackagePath>Assets\back.jpg</PackagePath>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\Assets\Turquoise-stone.png">
       <PackagePath>Assets\Turquoise-stone.png</PackagePath>
-      <Modified>2014-11-21T22:06:28.676</Modified>
+      <Modified>2014-11-22T18:13:42.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -66,7 +66,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\GamePage.xbf">
       <PackagePath>GamePage.xbf</PackagePath>
-      <Modified>2014-11-22T11:56:35.374</Modified>
+      <Modified>2014-11-22T16:42:25.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\Views\GamePageContent.xbf">
       <PackagePath>Views\GamePageContent.xbf</PackagePath>
@@ -78,11 +78,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\ConfusionGame.Windows.xr.xml">
       <PackagePath>ConfusionGame.Windows.xr.xml</PackagePath>
-      <Modified>2014-11-22T11:56:35.333</Modified>
+      <Modified>2014-11-22T16:42:25.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Iskra\documents\visual studio 2013\Projects\ConfusionGame\ConfusionGame\ConfusionGame.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-11-22T11:52:27.136</Modified>
+      <Modified>2014-11-22T16:40:05.394</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -55,8 +55,8 @@ namespace ConfusionGame
             
             this.game = new GameViewModel();
           //  this.player = new PlayerViewModel(x,y);
-            
-          
+
+            this.DataContext = this.game;
             
         }
 
@@ -116,17 +116,11 @@ namespace ConfusionGame
         {
             this.game.GameFieldWidth = this.ActualWidth;
             this.game.GameFieldHeight = this.ActualHeight;
-
-           // SetPlayerControll();
+            this.game.initObjects();
             this.game.StartGame();
             GenerateObsticles();
             BuildGameUIElement(this.game.Player);
-            
-           /* Button btn = new Button() { Content = "Button" };
-            btn.Width = 130;
-            btn.Height = 66;
-
-            this.Grid.Children.Add(btn);*/
+ 
             //DispatcherTimer timer = new DispatcherTimer();
             //timer.Tick += (snd, args) =>
             //{
@@ -153,46 +147,6 @@ namespace ConfusionGame
             TranslateObject( delta);
         }
 
-        /*private void SetPlayerControll() 
-        {
-            var topBinding = new Binding()
-            {
-                Path = new PropertyPath("Top"),
-                Source = this.game.Player,
-                Mode = BindingMode.TwoWay,
-                UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
-            };
-
-            var leftBinding = new Binding()
-            {
-                Path = new PropertyPath("Left"),
-                Source = this.game.Player,
-                Mode = BindingMode.TwoWay,
-                UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
-            };
-            TranslateTransform x = new TranslateTransform();
-            x.X = -175;
-            x.Y = -175;
-            this.brush = new ImageBrush()
-            {
-                ImageSource = this.game.Player.Source,
-                Stretch = Stretch.None,
-                AlignmentX = AlignmentX.Left,
-                AlignmentY = AlignmentY.Top,
-                Transform = x
-            };
-
-            this.controll = this.Rect;
-            this.controll.SetBinding(Canvas.TopProperty, topBinding);
-            this.controll.SetBinding(Canvas.LeftProperty, leftBinding);
-            this.controll.Width = this.game.Player.Width;
-            this.controll.Height = this.game.Player.Height;
-
-            this.controll.Fill = this.brush;
-           
-        
-        }*/
-
         private Rectangle BuildGameUIElement(GameObjectVM obj)
         {
             var topBinding = new Binding()
@@ -210,9 +164,26 @@ namespace ConfusionGame
                 Mode = BindingMode.TwoWay,
                 UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
             };
+
+            var heightBinding = new Binding()
+            {
+                Path = new PropertyPath("Height"),
+                Source = obj,
+                Mode = BindingMode.TwoWay,
+                UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
+            };
+
+            var widthBinding = new Binding()
+            {
+                Path = new PropertyPath("Width"),
+                Source = obj,
+                Mode = BindingMode.TwoWay,
+                UpdateSourceTrigger = UpdateSourceTrigger.PropertyChanged
+            };
+
+
             Rectangle rect = new Rectangle();
-            rect.Width = obj.Width;
-            rect.Height = obj.Width;
+            
             TranslateTransform x = new TranslateTransform();
             x.X = -obj.Width;
             x.Y = -obj.Height;
@@ -229,9 +200,8 @@ namespace ConfusionGame
             this.Field.Children.Add(rect);
             rect.SetBinding(Canvas.TopProperty, topBinding);
             rect.SetBinding(Canvas.LeftProperty, leftBinding);
-            rect.Width = this.game.Player.Width;
-            rect.Height = this.game.Player.Height;
-
+            rect.SetBinding(WidthProperty, widthBinding);
+            rect.SetBinding(HeightProperty, heightBinding);
             rect.Fill = this.brush;
             
 
@@ -239,21 +209,6 @@ namespace ConfusionGame
             
         }
 
-        private void Dificulty_Click(object sender, RoutedEventArgs e)
-        {
-            Button button = sender as Button;
-            if (this.game.Dificulty < 3)
-            {
-                this.game.Dificulty++;
-                switch (this.game.Dificulty)
-                {
-                    case 1: button.Content = "Harder"; break;
-                    case 2: button.Content = "Mutch Harder"; break;
-                    case 3: button.Content = "Insane"; break;
-                    default: break;
-                }
-            }
-        }
 
         
     }

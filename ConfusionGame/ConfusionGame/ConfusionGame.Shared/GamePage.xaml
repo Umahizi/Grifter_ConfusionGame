@@ -16,6 +16,7 @@
     <Page.Resources>
 
         <vm:GameViewModel x:Key="GameViewModel" />
+        <converters:StatusToStringConverter x:Key="statusToString"/>
     </Page.Resources>
 
 
@@ -27,15 +28,14 @@
                     Stretch="None"
                     AlignmentY="Top"></ImageBrush>
         </Grid.Background>
-        
-        <Button Name="Dificulty" HorizontalAlignment="Center"  Content="Easy" Click="Dificulty_Click" />
-        <TextBlock Name="GameStatus" HorizontalAlignment="Center"  FontSize="30" Text="Game is On"/>
+
+        <TextBlock Name="GameStatus" HorizontalAlignment="Center" VerticalAlignment="Bottom"  FontSize="30"  Text="{Binding GameState, Mode=TwoWay}" Foreground="#FFFD0000"/>
         <Canvas    Name="Field" >
 
             <Rectangle Name="Rect">
 
             </Rectangle>
-            <Rectangle Name="Wall" Width="50" Height="1000" Canvas.Top="-319" Canvas.Left="1337" Fill="Red">
+            <Rectangle Name="Wall" Width="50" Height="1000" Canvas.Top="-207" Canvas.Left="1337" Fill="Red">
 
             </Rectangle>
         </Canvas>
